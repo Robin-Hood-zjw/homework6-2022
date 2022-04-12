@@ -50,10 +50,10 @@ document.querySelector("#mute").addEventListener("click", function () {
 	console.log("I want to mute the video.");
 	if (video.muted === true) {
 		video.muted = false;
-		this.innerHTML = "Unmute";
+		this.innerHTML = "Mute";
 	} else {
 		video.muted = true;
-		this.innerHTML = "Mute";
+		this.innerHTML = "Unmute";
 	}
 })
 
